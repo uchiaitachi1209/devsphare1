@@ -1231,5 +1231,864 @@
       "completedAt": "2026-10-10T11:05:13.097Z"
     },
     "verifiedAt": "2026-10-10T11:05:13.100Z"
+  },
+  {
+    "id": "verify_1791630754830_5iqqm8",
+    "targetUrl": "https://soraix.vercel.app/",
+    "baselineRunId": "run_v3_1791630716772_fdicme",
+    "baselineRun": {
+      "id": "run_v3_1791630716772_fdicme",
+      "targetUrl": "https://soraix.vercel.app/",
+      "normalizedUrl": "https://soraix.vercel.app/",
+      "state": "COMPLETED",
+      "progressPercent": 100,
+      "currentStepTitle": "CyberLab V3 Scan Completed",
+      "currentStepDetail": "Autonomous evaluation finished with 1 findings and 1 discovered routes.",
+      "startedAt": "2026-10-10T11:11:56.776Z",
+      "preflight": {
+        "isValid": true,
+        "normalizedUrl": "https://soraix.vercel.app/",
+        "originalInput": "https://soraix.vercel.app/",
+        "hostname": "soraix.vercel.app",
+        "ipAddress": "216.198.79.131",
+        "statusCode": 200,
+        "tlsValid": false,
+        "isParkedDomain": false,
+        "isSpaFallback": true,
+        "redirectChain": [
+          "https://soraix.vercel.app/"
+        ]
+      },
+      "snapshot": {
+        "url": "https://soraix.vercel.app/",
+        "title": "SoraiX — A world beyond ordinary",
+        "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX.",
+        "domStructure": {
+          "title": "SoraiX — A world beyond ordinary",
+          "metaTags": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "theme-color": "#0b0b10",
+            "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX."
+          },
+          "headers": [],
+          "links": [],
+          "forms": [],
+          "buttons": [],
+          "scripts": [
+            "/assets/index-CH0zYq8T.js"
+          ],
+          "stylesheets": [
+            "/assets/index-DqWFeYdv.css"
+          ],
+          "images": []
+        },
+        "networkResources": [
+          {
+            "url": "https://soraix.vercel.app/",
+            "type": "document",
+            "sizeBytes": 845,
+            "status": 200,
+            "cached": false
+          },
+          {
+            "url": "/assets/index-CH0zYq8T.js",
+            "type": "script",
+            "sizeBytes": 31760,
+            "status": 200,
+            "cached": true
+          },
+          {
+            "url": "/assets/index-DqWFeYdv.css",
+            "type": "stylesheet",
+            "sizeBytes": 14186,
+            "status": 200,
+            "cached": true
+          }
+        ],
+        "syntheticApis": [
+          {
+            "path": "/api/v1/health",
+            "method": "GET",
+            "mockStatus": 200,
+            "mockResponse": {
+              "status": "healthy",
+              "uptime": "99.98%",
+              "replica": "cyberlab-node-01"
+            }
+          },
+          {
+            "path": "/api/v1/session",
+            "method": "GET",
+            "mockStatus": 200,
+            "mockResponse": {
+              "authenticated": false,
+              "csrfToken": "synth_csrf_ilfr0u"
+            }
+          }
+        ],
+        "viewportMetrics": {
+          "desktop": {
+            "width": 1440,
+            "height": 900,
+            "layoutShiftScore": 0.02
+          },
+          "tablet": {
+            "width": 768,
+            "height": 1024,
+            "layoutShiftScore": 0.04
+          },
+          "mobile": {
+            "width": 375,
+            "height": 667,
+            "layoutShiftScore": 0.07
+          }
+        },
+        "securityHeaders": {
+          "content-security-policy": "default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data: blob:; media-src 'self' https: blob:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'self' https:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "DENY",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "x-xss-protection": null
+        },
+        "observedAt": "2026-10-10T11:12:21.109Z",
+        "disclaimer": "Public Visual Preview — Not a Complete Website Clone. All traffic and interactions remain strictly inside DevSphere isolated infrastructure."
+      },
+      "discoveredPages": [
+        {
+          "url": "https://soraix.vercel.app/",
+          "path": "/",
+          "title": "SoraiX — A world beyond ordinary",
+          "statusCode": 200,
+          "discoverySource": "homepage",
+          "loadTimeMs": 120,
+          "isBroken": false,
+          "contentType": "text/html"
+        }
+      ],
+      "functional": {
+        "pagesTested": 1,
+        "brokenLinksCount": 0,
+        "missingAssetsCount": 0,
+        "consoleErrorsCount": 0,
+        "soft404Count": 0,
+        "horizontalOverflowDetected": false,
+        "issues": []
+      },
+      "performanceMetrics": {
+        "fcpMs": 326,
+        "lcpMs": 826,
+        "clsScore": 0.02,
+        "ttfbMs": 126,
+        "tbtMs": 30,
+        "speedIndexMs": 440,
+        "transferSizeBytes": 0,
+        "requestCount": 1,
+        "renderBlockingResources": 0,
+        "domContentLoadedMs": 261
+      },
+      "securityAudit": {
+        "tlsGrade": "A",
+        "certificateExpiresDays": 48,
+        "httpsEnforced": true,
+        "hstsPresent": true,
+        "cspStrictness": "weak",
+        "securityTxt": {
+          "present": false,
+          "rfc9116Valid": false,
+          "issues": [
+            "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+          ]
+        },
+        "headersScore": 100
+      },
+      "findings": [
+        {
+          "id": "SEC-TXT-001",
+          "ruleId": "SEC_TXT_RFC9116",
+          "category": "info_disclosure",
+          "severity": "low",
+          "confidence": "confirmed",
+          "title": "Missing or Non-Compliant RFC 9116 security.txt",
+          "description": "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.",
+          "scoreDeduction": 5,
+          "evidence": {
+            "issues": [
+              "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+            ]
+          },
+          "explanation": "RFC 9116 standardizes a machine-readable security contact policy for ethical vulnerability disclosures.",
+          "potentialImpact": "Security researchers may be unable to rapidly disclose security vulnerabilities to the appropriate contact.",
+          "remediation": "Publish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields.",
+          "snippets": [
+            {
+              "language": "text",
+              "server": "general",
+              "title": "RFC 9116 security.txt Template",
+              "code": "Contact: mailto:security@soraix.vercel.app\nExpires: 2027-10-10T11:12:28.131Z\nPreferred-Languages: en"
+            }
+          ],
+          "standards": [
+            {
+              "framework": "RFC",
+              "identifier": "RFC 9116",
+              "title": "A File Format to Aid in Security Vulnerability Disclosure"
+            }
+          ],
+          "verificationSteps": [
+            "Verify that curl -I https://soraix.vercel.app/.well-known/security.txt returns 200 OK with Contact and Expires directives."
+          ]
+        }
+      ],
+      "evidenceLog": [
+        {
+          "timestamp": "2026-10-10T11:12:28.135Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "CyberLab V3 Scan Completed: Autonomous evaluation finished with 1 findings and 1 discovered routes."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:28.131Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "AI Remediation Synthesis: Generating evidence-grounded AI Website Fix Master Prompt..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:28.128Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Correlating Technical Findings: Deduplicating issues, computing severity, and attaching evidence..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:21.117Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Passive Security & RFC 9116 Audit: Auditing HTTP headers, cookies, and security.txt standards..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:21.114Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Performance Intelligence & Core Web Vitals: Measuring TTFB, FCP, LCP, CLS, and render-blocking resources..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:21.112Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Functional Integrity Testing: Testing 1 discovered routes for broken assets, soft 404s, and console errors..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:21.109Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Autonomous Page Discovery: Extracting internal navigation, canonical URLs, and sitemap..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:11.972Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Virtual Browser Sandbox: Launching isolated Chromium instance and capturing DOM model..."
+        },
+        {
+          "timestamp": "2026-10-10T11:12:06.509Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "TLS & Connection Handshake: Connecting to soraix.vercel.app (IP: 216.198.79.131)..."
+        },
+        {
+          "timestamp": "2026-10-10T11:11:56.776Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Intelligent URL Validation: Validating syntax, DNS resolution, and reachability..."
+        },
+        {
+          "timestamp": "2026-10-10T11:11:56.776Z",
+          "level": "info",
+          "category": "Orchestrator",
+          "message": "CyberLab V3 autonomous session cyberlab_v3_1791630716776_zhsumcj queued for https://soraix.vercel.app/."
+        }
+      ],
+      "aiFixMasterPrompt": "# DEVSPHERE CYBERLAB V3 — AI WEBSITE REPAIR MASTER PROMPT\n> **Target Website:** `https://soraix.vercel.app/`  \n> **Host:** `soraix.vercel.app` (IP: `216.198.79.131`)  \n> **Framework / Runtime:** `unknown`  \n> **Generated Timestamp:** `2026-10-10T11:12:28.135Z`  \n> **Scan Status:** `200 OK (TLS Valid: No)`  \n\n---\n\n## 0. MANDATORY INSTRUCTIONS FOR THE AI CODING AGENT\nYou are acting as an elite Principal Software & Application Security Engineer.\nYour task is to fix the **CONFIRMED defects, security misconfigurations, and performance bottlenecks** discovered by DevSphere CyberLab V3 on `https://soraix.vercel.app/`.\n\nFollow these non-negotiable rules:\n1. **Inspect Existing Code First:** Thoroughly examine the repository architecture, config files, router patterns, and dependencies before modifying any code.\n2. **Preserve All Working Features:** Do NOT rewrite unrelated code or replace working UI components. Deliver minimal, high-precision surgical fixes.\n3. **Evidence-Driven Remediation:** Every code change must directly resolve a verified finding documented in Section 2 below.\n4. **No Placeholders or Mocks in Production:** Write real, fully implemented code and configurations.\n5. **Add Regression Tests:** Write automated unit or integration tests (e.g. Jest, Vitest, Playwright) that reproduce the failure and assert the fix.\n6. **Local Verification:** Run the development server locally and verify that the target endpoints respond cleanly without regression.\n\n---\n\n## 1. EXECUTIVE SCAN SUMMARY & METRICS\n* **Total Discovered Pages:** 1\n* **Functional Broken Links:** 0\n* **Console Errors:** 0\n* **Core Web Vitals:**\n  * **TTFB:** 126 ms\n  * **First Contentful Paint (FCP):** 0.33 s\n  * **Largest Contentful Paint (LCP):** 0.83 s\n  * **Cumulative Layout Shift (CLS):** 0.020\n* **Security & Resilience Findings:**\n  * **Critical:** 0\n  * **High:** 0\n  * **Medium:** 0\n  * **Low / Info:** 1\n\n---\n\n## 2. PRIORITIZED DEFECTS & TECHNICAL EVIDENCE\n\n### Finding #1: [LOW] Missing or Non-Compliant RFC 9116 security.txt\n* **ID:** `SEC-TXT-001`\n* **Category:** `info_disclosure` (Confidence: `confirmed`)\n* **Affected Area:** `SEC_TXT_RFC9116`\n* **Observed Defect / Behavior:**\n  No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.\n* **Technical Evidence:**\n```json\n{\n  \"issues\": [\n    \"No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.\"\n  ]\n}\n```\n* **Likely Root Cause:**\n  RFC 9116 standardizes a machine-readable security contact policy for ethical vulnerability disclosures.\n* **Potential Impact:**\n  Security researchers may be unable to rapidly disclose security vulnerabilities to the appropriate contact.\n* **Recommended Remediation:**\n  Publish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields.\n* **Reference Code Snippet (general):**\n```text\nContact: mailto:security@soraix.vercel.app\nExpires: 2027-10-10T11:12:28.131Z\nPreferred-Languages: en\n```\n* **Verification Steps:**\n  - Verify that curl -I https://soraix.vercel.app/.well-known/security.txt returns 200 OK with Contact and Expires directives.\n\n\n---\n\n## 3. FUNCTIONAL & ASSET DEFECTS\n\nZero broken links or asset load failures observed across tested pages.\n\n---\n\n## 4. ACTIONABLE REMEDIATION PLAN FOR THE DEVELOPER\n\n1. **Phase 1 — Critical Security Hardening:**\n   - Configure modern HTTP security headers (`Content-Security-Policy` with nonces, `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`).\n   - Audit session cookies: enforce `SameSite=Lax` (or `Strict`), `HttpOnly`, and `Secure`.\n   - Ensure parameterized SQL queries across all database access layers.\n\n2. **Phase 2 — Functional Link & Route Repair:**\n   - Fix all 404 broken routes identified above. Replace dead internal links with canonical destinations.\n   - Verify all static asset paths (images, fonts, scripts) resolve with valid MIME types.\n\n3. **Phase 3 — Performance & Core Web Vitals Optimization:**\n   - Preload critical fonts and hero images to reduce LCP.\n   - Add explicit `width` and `height` dimensions to layout containers and images to eliminate Cumulative Layout Shift (CLS).\n   - Defer non-critical third-party analytics scripts to minimize main-thread execution time.\n\n4. **Phase 4 — Automated Verification:**\n   - Execute test suite locally: `npm test`\n   - Re-scan with DevSphere CyberLab V3 to confirm 100% remediation score.\n\n---\n*DevSphere CyberLab V3 Autonomous Engine • Evidence-Grounded AI Prompt*\n",
+      "trafficSimulation": {
+        "id": "sim_1791630748128_wljs1q",
+        "timestamp": "2026-10-10T11:12:28.128Z",
+        "vus": 100,
+        "durationSec": 10,
+        "totalRequests": 4070,
+        "requestsPerSecond": 407,
+        "throughputKbps": 47212,
+        "latency": {
+          "p50": 155,
+          "p90": 232,
+          "p95": 275,
+          "p99": 378,
+          "min": 31,
+          "max": 567,
+          "avg": 172
+        },
+        "errorRatePercent": 0.11,
+        "timeouts": 1,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "p95 latency elevated (275ms) — consider caching hot API endpoints."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 131,
+            "latencyP95": 298,
+            "errors": 0,
+            "activeVUs": 33
+          },
+          {
+            "second": 2,
+            "rps": 266,
+            "latencyP95": 301,
+            "errors": 0,
+            "activeVUs": 67
+          },
+          {
+            "second": 3,
+            "rps": 413,
+            "latencyP95": 274,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 4,
+            "rps": 394,
+            "latencyP95": 297,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 5,
+            "rps": 411,
+            "latencyP95": 271,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 6,
+            "rps": 423,
+            "latencyP95": 268,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 7,
+            "rps": 396,
+            "latencyP95": 294,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 8,
+            "rps": 425,
+            "latencyP95": 273,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 9,
+            "rps": 395,
+            "latencyP95": 285,
+            "errors": 0,
+            "activeVUs": 100
+          },
+          {
+            "second": 10,
+            "rps": 420,
+            "latencyP95": 299,
+            "errors": 0,
+            "activeVUs": 100
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      "completedAt": "2026-10-10T11:12:28.137Z"
+    },
+    "status": "completed",
+    "createdAt": "2026-10-10T11:12:34.831Z",
+    "summary": {
+      "totalBaselineFindings": 1,
+      "verifiedFixedCount": 0,
+      "stillPresentCount": 1,
+      "regressionsCount": 0,
+      "improvedCount": 0,
+      "overallVerdict": "NO_CHANGE",
+      "scoreDelta": 0
+    },
+    "findingComparisons": [
+      {
+        "findingId": "SEC-TXT-001",
+        "ruleId": "SEC_TXT_RFC9116",
+        "title": "Missing or Non-Compliant RFC 9116 security.txt",
+        "category": "info_disclosure",
+        "severity": "low",
+        "status": "STILL_PRESENT",
+        "statusReason": "Issue remains reproducible in re-scan verification under matching test conditions.",
+        "baselineEvidence": {
+          "issues": [
+            "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+          ]
+        },
+        "latestEvidence": {
+          "issues": [
+            "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+          ]
+        },
+        "explanation": "RFC 9116 standardizes a machine-readable security contact policy for ethical vulnerability disclosures.",
+        "remediation": "Publish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields."
+      }
+    ],
+    "performanceComparison": {
+      "fcp": {
+        "metric": "First Contentful Paint (FCP)",
+        "unit": "ms",
+        "baseline": 326,
+        "latest": 326,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "lcp": {
+        "metric": "Largest Contentful Paint (LCP)",
+        "unit": "ms",
+        "baseline": 826,
+        "latest": 826,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "cls": {
+        "metric": "Cumulative Layout Shift (CLS)",
+        "unit": "",
+        "baseline": 0.02,
+        "latest": 0.02,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "ttfb": {
+        "metric": "Time to First Byte (TTFB)",
+        "unit": "ms",
+        "baseline": 126,
+        "latest": 126,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "transferSize": {
+        "metric": "Transfer Size",
+        "unit": "bytes",
+        "baseline": 0,
+        "latest": 0,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "requestCount": {
+        "metric": "Requests",
+        "unit": "",
+        "baseline": 1,
+        "latest": 1,
+        "delta": 0,
+        "percentageChange": 0,
+        "verdict": "neutral",
+        "isMeaningful": false
+      },
+      "overallPerformanceDelta": 0
+    },
+    "functionalRegressions": [],
+    "updatedAiFixPrompt": "# DEVSPHERE CYBERLAB V3 — AUTO-FIX VERIFICATION REMEDIATION LOOP\n> **Target Website:** `https://soraix.vercel.app/`  \n> **Verification Run ID:** `cyberlab_v3_1791630794863_stfce`  \n> **Timestamp:** `2026-10-10T11:13:18.077Z`  \n> **Verification Verdict:** `NO_CHANGE`  \n> **Resolved Issues:** `0 of 1`  \n> **New Regressions:** `0`  \n\n---\n\n## 0. DIRECTIVES FOR THE AI CODING AGENT\nYou are acting as an elite Principal Software & Application Security Engineer in an **Auto-Fix Verification Loop**.\nA previous fix was applied and re-tested by DevSphere CyberLab V3.\nYour task is to fix the **remaining unresolved defects** and **immediately revert/fix newly introduced regressions** below.\n\n### Rules of Engagement:\n1. **Do NOT break verified fixes:** The 0 items listed in Section 1 were confirmed fixed. Do NOT re-introduce those vulnerabilities or defects.\n2. **Prioritize Regressions First:** If any regressions exist in Section 2, they represent newly broken functionality or security regressions. Resolve them immediately.\n3. **Resolve Still-Present Issues:** Surgical fixes for findings that remain open in Section 3.\n4. **Preserve All Working Code:** Minimal diffs, no unnecessary refactoring.\n5. **Add Automated Regression Tests:** Every fix must be accompanied by an automated test case assertively preventing regressions.\n\n---\n\n## 1. VERIFIED FIXED ISSUES (CONFIRMED RESOLVED)\nThese issues were successfully fixed in the deployment and verified by DevSphere:\n* None verified fixed yet.\n\n---\n\n## 2. NEW REGRESSIONS DETECTED (URGENT HOTFIX REQUIRED)\nZero regressions detected. Good job maintaining functional stability!\n\n---\n\n## 3. UNRESOLVED ISSUES (STILL PRESENT)\n### Unresolved #1: [LOW] Missing or Non-Compliant RFC 9116 security.txt\n* **Rule ID:** `SEC_TXT_RFC9116`\n* **Status Reason:** Issue remains reproducible in re-scan verification under matching test conditions.\n* **Latest Evidence:**\n```json\n{\n  \"issues\": [\n    \"No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.\"\n  ]\n}\n```\n* **Remediation Guide:**\nPublish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields.\n\n---\n\n## 4. PERFORMANCE DELTAS (CORE WEB VITALS)\n* **LCP Delta:** 826ms -> 826ms (0ms, verdict: `NEUTRAL`)\n* **FCP Delta:** 326ms -> 326ms (0ms)\n* **CLS Delta:** 0.02 -> 0.02 (0)\n* **TTFB Delta:** 126ms -> 126ms (0ms)\n\n---\n\n## 5. FINAL ACTION PLAN\n1. Inspect the codebase for the causes of the 0 regressions above.\n2. Implement surgical corrections for remaining unresolved defects.\n3. Run tests locally and redeploy.\n4. Re-run DevSphere CyberLab Auto-Fix Verification to achieve `PASS_CLEAN`.\n",
+    "deploymentInfo": {
+      "provider": "manual",
+      "notes": "Manual user retest",
+      "detectedAt": "2026-10-10T11:13:14.862Z"
+    },
+    "latestRunId": "cyberlab_v3_1791630794863_stfce",
+    "latestRun": {
+      "id": "cyberlab_v3_1791630794863_stfce",
+      "targetUrl": "https://soraix.vercel.app/",
+      "normalizedUrl": "https://soraix.vercel.app/",
+      "state": "COMPLETED",
+      "progressPercent": 100,
+      "currentStepTitle": "CyberLab V3 Scan Completed",
+      "currentStepDetail": "Autonomous evaluation finished with 1 findings and 1 discovered routes.",
+      "startedAt": "2026-10-10T11:13:14.863Z",
+      "preflight": {
+        "isValid": true,
+        "normalizedUrl": "https://soraix.vercel.app/",
+        "originalInput": "https://soraix.vercel.app/",
+        "hostname": "soraix.vercel.app",
+        "ipAddress": "216.198.79.67",
+        "statusCode": 200,
+        "tlsValid": false,
+        "isParkedDomain": false,
+        "isSpaFallback": true,
+        "redirectChain": [
+          "https://soraix.vercel.app/"
+        ]
+      },
+      "snapshot": {
+        "url": "https://soraix.vercel.app/",
+        "title": "SoraiX — A world beyond ordinary",
+        "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX.",
+        "domStructure": {
+          "title": "SoraiX — A world beyond ordinary",
+          "metaTags": {
+            "viewport": "width=device-width, initial-scale=1.0",
+            "theme-color": "#0b0b10",
+            "description": "Find your next obsession. Discover extraordinary anime, build your watchlist, and explore new worlds with SoraiX."
+          },
+          "headers": [],
+          "links": [],
+          "forms": [],
+          "buttons": [],
+          "scripts": [
+            "/assets/index-CH0zYq8T.js"
+          ],
+          "stylesheets": [
+            "/assets/index-DqWFeYdv.css"
+          ],
+          "images": []
+        },
+        "networkResources": [
+          {
+            "url": "https://soraix.vercel.app/",
+            "type": "document",
+            "sizeBytes": 845,
+            "status": 200,
+            "cached": false
+          },
+          {
+            "url": "/assets/index-CH0zYq8T.js",
+            "type": "script",
+            "sizeBytes": 42374,
+            "status": 200,
+            "cached": true
+          },
+          {
+            "url": "/assets/index-DqWFeYdv.css",
+            "type": "stylesheet",
+            "sizeBytes": 14411,
+            "status": 200,
+            "cached": true
+          }
+        ],
+        "syntheticApis": [
+          {
+            "path": "/api/v1/health",
+            "method": "GET",
+            "mockStatus": 200,
+            "mockResponse": {
+              "status": "healthy",
+              "uptime": "99.98%",
+              "replica": "cyberlab-node-01"
+            }
+          },
+          {
+            "path": "/api/v1/session",
+            "method": "GET",
+            "mockStatus": 200,
+            "mockResponse": {
+              "authenticated": false,
+              "csrfToken": "synth_csrf_ek2uck"
+            }
+          }
+        ],
+        "viewportMetrics": {
+          "desktop": {
+            "width": 1440,
+            "height": 900,
+            "layoutShiftScore": 0.02
+          },
+          "tablet": {
+            "width": 768,
+            "height": 1024,
+            "layoutShiftScore": 0.04
+          },
+          "mobile": {
+            "width": 375,
+            "height": 667,
+            "layoutShiftScore": 0.07
+          }
+        },
+        "securityHeaders": {
+          "content-security-policy": "default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data: blob:; media-src 'self' https: blob:; connect-src 'self' https:; worker-src 'self' blob:; frame-src 'self' https:; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "DENY",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "permissions-policy": "camera=(), microphone=(), geolocation=()",
+          "x-xss-protection": null
+        },
+        "observedAt": "2026-10-10T11:13:17.542Z",
+        "disclaimer": "Public Visual Preview — Not a Complete Website Clone. All traffic and interactions remain strictly inside DevSphere isolated infrastructure."
+      },
+      "discoveredPages": [
+        {
+          "url": "https://soraix.vercel.app/",
+          "path": "/",
+          "title": "SoraiX — A world beyond ordinary",
+          "statusCode": 200,
+          "discoverySource": "homepage",
+          "loadTimeMs": 120,
+          "isBroken": false,
+          "contentType": "text/html"
+        }
+      ],
+      "functional": {
+        "pagesTested": 1,
+        "brokenLinksCount": 0,
+        "missingAssetsCount": 0,
+        "consoleErrorsCount": 0,
+        "soft404Count": 0,
+        "horizontalOverflowDetected": false,
+        "issues": []
+      },
+      "performanceMetrics": {
+        "fcpMs": 326,
+        "lcpMs": 826,
+        "clsScore": 0.02,
+        "ttfbMs": 126,
+        "tbtMs": 30,
+        "speedIndexMs": 440,
+        "transferSizeBytes": 0,
+        "requestCount": 1,
+        "renderBlockingResources": 0,
+        "domContentLoadedMs": 261
+      },
+      "securityAudit": {
+        "tlsGrade": "A",
+        "certificateExpiresDays": 48,
+        "httpsEnforced": true,
+        "hstsPresent": true,
+        "cspStrictness": "weak",
+        "securityTxt": {
+          "present": false,
+          "rfc9116Valid": false,
+          "issues": [
+            "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+          ]
+        },
+        "headersScore": 100
+      },
+      "findings": [
+        {
+          "id": "SEC-TXT-001",
+          "ruleId": "SEC_TXT_RFC9116",
+          "category": "info_disclosure",
+          "severity": "low",
+          "confidence": "confirmed",
+          "title": "Missing or Non-Compliant RFC 9116 security.txt",
+          "description": "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.",
+          "scoreDeduction": 5,
+          "evidence": {
+            "issues": [
+              "No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt."
+            ]
+          },
+          "explanation": "RFC 9116 standardizes a machine-readable security contact policy for ethical vulnerability disclosures.",
+          "potentialImpact": "Security researchers may be unable to rapidly disclose security vulnerabilities to the appropriate contact.",
+          "remediation": "Publish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields.",
+          "snippets": [
+            {
+              "language": "text",
+              "server": "general",
+              "title": "RFC 9116 security.txt Template",
+              "code": "Contact: mailto:security@soraix.vercel.app\nExpires: 2027-10-10T11:13:18.074Z\nPreferred-Languages: en"
+            }
+          ],
+          "standards": [
+            {
+              "framework": "RFC",
+              "identifier": "RFC 9116",
+              "title": "A File Format to Aid in Security Vulnerability Disclosure"
+            }
+          ],
+          "verificationSteps": [
+            "Verify that curl -I https://soraix.vercel.app/.well-known/security.txt returns 200 OK with Contact and Expires directives."
+          ]
+        }
+      ],
+      "evidenceLog": [
+        {
+          "timestamp": "2026-10-10T11:13:18.074Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "CyberLab V3 Scan Completed: Autonomous evaluation finished with 1 findings and 1 discovered routes."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:18.074Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "AI Remediation Synthesis: Generating evidence-grounded AI Website Fix Master Prompt..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:18.074Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Correlating Technical Findings: Deduplicating issues, computing severity, and attaching evidence..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:17.543Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Passive Security & RFC 9116 Audit: Auditing HTTP headers, cookies, and security.txt standards..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:17.542Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Performance Intelligence & Core Web Vitals: Measuring TTFB, FCP, LCP, CLS, and render-blocking resources..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:17.542Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Functional Integrity Testing: Testing 1 discovered routes for broken assets, soft 404s, and console errors..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:17.542Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Autonomous Page Discovery: Extracting internal navigation, canonical URLs, and sitemap..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:15.960Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Virtual Browser Sandbox: Launching isolated Chromium instance and capturing DOM model..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:15.761Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "TLS & Connection Handshake: Connecting to soraix.vercel.app (IP: 216.198.79.67)..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:14.863Z",
+          "level": "info",
+          "category": "Engine",
+          "message": "Intelligent URL Validation: Validating syntax, DNS resolution, and reachability..."
+        },
+        {
+          "timestamp": "2026-10-10T11:13:14.863Z",
+          "level": "info",
+          "category": "Orchestrator",
+          "message": "CyberLab V3 autonomous session cyberlab_v3_1791630794863_stfce queued for https://soraix.vercel.app/."
+        }
+      ],
+      "aiFixMasterPrompt": "# DEVSPHERE CYBERLAB V3 — AI WEBSITE REPAIR MASTER PROMPT\n> **Target Website:** `https://soraix.vercel.app/`  \n> **Host:** `soraix.vercel.app` (IP: `216.198.79.67`)  \n> **Framework / Runtime:** `unknown`  \n> **Generated Timestamp:** `2026-10-10T11:13:18.074Z`  \n> **Scan Status:** `200 OK (TLS Valid: No)`  \n\n---\n\n## 0. MANDATORY INSTRUCTIONS FOR THE AI CODING AGENT\nYou are acting as an elite Principal Software & Application Security Engineer.\nYour task is to fix the **CONFIRMED defects, security misconfigurations, and performance bottlenecks** discovered by DevSphere CyberLab V3 on `https://soraix.vercel.app/`.\n\nFollow these non-negotiable rules:\n1. **Inspect Existing Code First:** Thoroughly examine the repository architecture, config files, router patterns, and dependencies before modifying any code.\n2. **Preserve All Working Features:** Do NOT rewrite unrelated code or replace working UI components. Deliver minimal, high-precision surgical fixes.\n3. **Evidence-Driven Remediation:** Every code change must directly resolve a verified finding documented in Section 2 below.\n4. **No Placeholders or Mocks in Production:** Write real, fully implemented code and configurations.\n5. **Add Regression Tests:** Write automated unit or integration tests (e.g. Jest, Vitest, Playwright) that reproduce the failure and assert the fix.\n6. **Local Verification:** Run the development server locally and verify that the target endpoints respond cleanly without regression.\n\n---\n\n## 1. EXECUTIVE SCAN SUMMARY & METRICS\n* **Total Discovered Pages:** 1\n* **Functional Broken Links:** 0\n* **Console Errors:** 0\n* **Core Web Vitals:**\n  * **TTFB:** 126 ms\n  * **First Contentful Paint (FCP):** 0.33 s\n  * **Largest Contentful Paint (LCP):** 0.83 s\n  * **Cumulative Layout Shift (CLS):** 0.020\n* **Security & Resilience Findings:**\n  * **Critical:** 0\n  * **High:** 0\n  * **Medium:** 0\n  * **Low / Info:** 1\n\n---\n\n## 2. PRIORITIZED DEFECTS & TECHNICAL EVIDENCE\n\n### Finding #1: [LOW] Missing or Non-Compliant RFC 9116 security.txt\n* **ID:** `SEC-TXT-001`\n* **Category:** `info_disclosure` (Confidence: `confirmed`)\n* **Affected Area:** `SEC_TXT_RFC9116`\n* **Observed Defect / Behavior:**\n  No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.\n* **Technical Evidence:**\n```json\n{\n  \"issues\": [\n    \"No valid RFC 9116 security.txt discovered at /.well-known/security.txt or /security.txt.\"\n  ]\n}\n```\n* **Likely Root Cause:**\n  RFC 9116 standardizes a machine-readable security contact policy for ethical vulnerability disclosures.\n* **Potential Impact:**\n  Security researchers may be unable to rapidly disclose security vulnerabilities to the appropriate contact.\n* **Recommended Remediation:**\n  Publish a compliant security.txt file under /.well-known/security.txt with Contact: and Expires: fields.\n* **Reference Code Snippet (general):**\n```text\nContact: mailto:security@soraix.vercel.app\nExpires: 2027-10-10T11:13:18.074Z\nPreferred-Languages: en\n```\n* **Verification Steps:**\n  - Verify that curl -I https://soraix.vercel.app/.well-known/security.txt returns 200 OK with Contact and Expires directives.\n\n\n---\n\n## 3. FUNCTIONAL & ASSET DEFECTS\n\nZero broken links or asset load failures observed across tested pages.\n\n---\n\n## 4. ACTIONABLE REMEDIATION PLAN FOR THE DEVELOPER\n\n1. **Phase 1 — Critical Security Hardening:**\n   - Configure modern HTTP security headers (`Content-Security-Policy` with nonces, `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`).\n   - Audit session cookies: enforce `SameSite=Lax` (or `Strict`), `HttpOnly`, and `Secure`.\n   - Ensure parameterized SQL queries across all database access layers.\n\n2. **Phase 2 — Functional Link & Route Repair:**\n   - Fix all 404 broken routes identified above. Replace dead internal links with canonical destinations.\n   - Verify all static asset paths (images, fonts, scripts) resolve with valid MIME types.\n\n3. **Phase 3 — Performance & Core Web Vitals Optimization:**\n   - Preload critical fonts and hero images to reduce LCP.\n   - Add explicit `width` and `height` dimensions to layout containers and images to eliminate Cumulative Layout Shift (CLS).\n   - Defer non-critical third-party analytics scripts to minimize main-thread execution time.\n\n4. **Phase 4 — Automated Verification:**\n   - Execute test suite locally: `npm test`\n   - Re-scan with DevSphere CyberLab V3 to confirm 100% remediation score.\n\n---\n*DevSphere CyberLab V3 Autonomous Engine • Evidence-Grounded AI Prompt*\n",
+      "trafficSimulation": {
+        "id": "sim_1791630798074_8zzuzd",
+        "timestamp": "2026-10-10T11:13:18.074Z",
+        "vus": 100,
+        "durationSec": 10,
+        "totalRequests": 4520,
+        "requestsPerSecond": 452,
+        "throughputKbps": 52432,
+        "latency": {
+          "p50": 140,
+          "p90": 209,
+          "p95": 248,
+          "p99": 341,
+          "min": 28,
+          "max": 512,
+          "avg": 155
+        },
+        "errorRatePercent": 0.21,
+        "timeouts": 3,
+        "circuitBreakerTriggered": false,
+        "bottlenecks": [
+          "No severe bottlenecks detected. Isolated environment sustained load cleanly."
+        ],
+        "timeSeries": [
+          {
+            "second": 1,
+            "rps": 147,
+            "latencyP95": 248,
+            "errors": 0,
+            "activeVUs": 33
+          },
+          {
+            "second": 2,
+            "rps": 303,
+            "latencyP95": 236,
+            "errors": 1,
+            "activeVUs": 67
+          },
+          {
+            "second": 3,
+            "rps": 457,
+            "latencyP95": 268,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 4,
+            "rps": 448,
+            "latencyP95": 271,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 5,
+            "rps": 453,
+            "latencyP95": 226,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 6,
+            "rps": 466,
+            "latencyP95": 244,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 7,
+            "rps": 443,
+            "latencyP95": 256,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 8,
+            "rps": 430,
+            "latencyP95": 262,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 9,
+            "rps": 469,
+            "latencyP95": 262,
+            "errors": 1,
+            "activeVUs": 100
+          },
+          {
+            "second": 10,
+            "rps": 454,
+            "latencyP95": 247,
+            "errors": 1,
+            "activeVUs": 100
+          }
+        ],
+        "isSynthetic": true,
+        "disclaimer": "Synthetic Load Simulation executed in isolated DevSphere infrastructure. No requests sent to external systems. Results are synthetic estimates based on replica/mock architecture."
+      },
+      "completedAt": "2026-10-10T11:13:18.074Z"
+    },
+    "verifiedAt": "2026-10-10T11:13:18.077Z"
   }
 ]

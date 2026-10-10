@@ -11216,5 +11216,197 @@
     "checksCompleted": 0,
     "checksFailed": 0,
     "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631103741_208a036f",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "resolving_dns",
+    "startedAt": "2026-10-10T11:18:23.741Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631132043_7a2e6d09",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "queued",
+    "startedAt": "2026-10-10T11:18:52.043Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631211847_ffa98123",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "resolving_dns",
+    "startedAt": "2026-10-10T11:20:11.848Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631249724_fc0398ec",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "resolving_dns",
+    "startedAt": "2026-10-10T11:20:49.724Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631331662_eab0c859",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "resolving_dns",
+    "startedAt": "2026-10-10T11:22:11.663Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
+  },
+  {
+    "id": "scan_1791631349001_5543f25c",
+    "mode": "public",
+    "targetUrl": "https://example.com",
+    "normalizedUrl": "https://example.com/",
+    "targetHostname": "example.com",
+    "status": "resolving_dns",
+    "startedAt": "2026-10-10T11:22:29.002Z",
+    "durationMs": 0,
+    "isDomainVerified": false,
+    "findings": [],
+    "score": {
+      "overallScore": 0,
+      "letterGrade": "F",
+      "coverageScore": 0,
+      "categoryScores": {},
+      "summary": "Audit initialized in scanning worker.",
+      "totalFindings": 0,
+      "findingsBySeverity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "info": 0
+      },
+      "isGuaranteedSecure": false
+    },
+    "checksAttempted": 0,
+    "checksCompleted": 0,
+    "checksFailed": 0,
+    "scannerVersion": "2.0.0-enterprise"
   }
 ]

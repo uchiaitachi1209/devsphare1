@@ -1,25 +1,15 @@
 {
   "pages": {
-    "/cyberlab/verify/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/cyberlab/verify/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/cyberlab/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
-    "/cyberlab/verify/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/cyberlab/verify/[id]/page.js"
+      "static/chunks/app/cyberlab/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

@@ -23,7 +23,7 @@ describe('DevSphere CyberLab V3 Suite', () => {
     expect(result.hostname).toBe('example.com');
     expect(result.statusCode).toBe(200);
     expect(result.redirectChain.length).toBeGreaterThanOrEqual(1);
-  });
+  }, 25000);
 
   it('generates an evidence-grounded AI Website Fix Master Prompt', () => {
     const prompt = generateAiFixMasterPrompt({
