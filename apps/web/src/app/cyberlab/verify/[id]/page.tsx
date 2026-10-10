@@ -1142,7 +1142,7 @@ export default function VerificationSessionPage() {
                 <div className="p-3.5 rounded-xl bg-black/60 border border-white/5 space-y-1">
                   <span className="text-slate-400 text-[10px] uppercase block">Webhook Endpoint</span>
                   <code className="text-cyan-300 text-xs">
-                    POST http://localhost:4000/api/v1/cyberlab/verification/webhook
+                    POST /api/v1/cyberlab/verification/webhook
                   </code>
                 </div>
 

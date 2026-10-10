@@ -115,7 +115,7 @@ export function Navbar() {
           </form>
 
           <a
-            href="http://localhost:4000/docs"
+            href="/docs"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-mono border border-white/10 bg-slate-900/60 text-slate-300 hover:text-white hover:border-cyan-500/30 transition-colors"

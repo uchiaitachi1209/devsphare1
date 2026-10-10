@@ -36,8 +36,8 @@ export async function buildServer() {
         description: 'Next-Generation Automated Website Security Analysis & Intelligence API',
         version: '1.0.0',
       },
-      host: 'localhost:4000',
-      schemes: ['http', 'https'],
+      host: process.env.SWAGGER_HOST || undefined,
+      schemes: ['https', 'http'],
       consumes: ['application/json'],
       produces: ['application/json'],
       tags: [

@@ -71,7 +71,7 @@ export function Footer() {
               <Link href="/settings" className="hover:text-cyan-400 transition-colors">Project Settings</Link>
             </li>
             <li>
-              <a href="http://localhost:4000/docs" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1">
+              <a href="/docs" target="_blank" rel="noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1">
                 <FileCode className="w-3.5 h-3.5" /> Fastify OpenAPI Docs
               </a>
             </li>

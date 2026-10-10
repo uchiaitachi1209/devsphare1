@@ -7,7 +7,10 @@ import {
 } from '@devsphere/shared';
 
 
-const API_BASE = '/api/v1';
+const API_BASE =
+  typeof window === 'undefined' && process.env.API_URL
+    ? `${process.env.API_URL.replace(/\/$/, '')}/api/v1`
+    : '/api/v1';
 
 export async function createScan(
   url: string,
